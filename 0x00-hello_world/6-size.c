@@ -12,12 +12,12 @@ int main(void)
 	long long int o;
 	float l;
 
-	printf("The size of a char: %lu.\n", (unsigned long)sizeof(k));
-	printf("The size of an int: %lu.\n", (unsigned long)sizeof(i));
-	printf("The size of a long int: %lu.\n", (unsigned long)sizeof(p));
-	printf("The size of a long long int: %lu.\n", (unsigned long)
+	printf("Size of a char: %lu.\n", (unsigned long)sizeof(k));
+	printf("Size of an int: %lu.\n", (unsigned long)sizeof(i));
+	printf("Size of a long int: %lu.\n", (unsigned long)sizeof(p));
+	printf("Size of a long long int: %lu.\n", (unsigned long)
 	       sizeof(o));
-	printf("The size of a foat: %lu.\n", (unsigned long)sizeof(l));
+	printf("Size of a foat: %lu.\n", (unsigned long)sizeof(l));
 
 	return (0);
 }
