@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+ *Main is somthing
+ */
 
 int main(void)
 {
