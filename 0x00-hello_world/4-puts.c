@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
- *it prints out what is in puts onto outputline
+/**
+ *main - primary working directory
+ *
+ *Return: 0 just to end it
  */
-
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
