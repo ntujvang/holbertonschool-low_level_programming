@@ -2,16 +2,11 @@
 #include <stdlib.h>
 /**
  * main - primary work area
- * int - values i and j to be used
+ * struct int - values to store char
  * Return: 0 to end
  */
 int main(void)
 {
-	/**
-	 * struct my_struct - my values
-	 * @i: first char value in int
-	 * @j: second char value in int
-	 */
 	int i;
 	int j;
 
