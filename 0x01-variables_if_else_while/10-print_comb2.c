@@ -12,16 +12,17 @@ int main(void)
 
 	i = '0';
 	j = '0';
+	/*nested while loop*/
 	while (i <= '9')
 	{
 		while (j <= '9')
 		{
-		putchar(i);
-		putchar(j);
-		if (i < '9' || j < '9')
-		putchar(',');
-		putchar(' ');
-		j++;
+			putchar(i);
+			putchar(j);
+			if (i < '9' || j < '9')
+			putchar(',');
+			putchar(' ');
+			j++;
 		}
 		j = '0';
 		i++;
