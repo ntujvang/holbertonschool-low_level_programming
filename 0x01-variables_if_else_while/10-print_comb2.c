@@ -7,6 +7,11 @@
  */
 int main(void)
 {
+	/**
+	 * struct my_struct - my values
+	 * @i: first char value in int
+	 * @j: second char value in int
+	 */
 	int i;
 	int j;
 
