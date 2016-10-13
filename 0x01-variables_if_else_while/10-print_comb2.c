@@ -12,7 +12,6 @@ int main(void)
 
 	i = '0';
 	j = '0';
-	/*nested while loop*/
 	while (i <= '9')
 	{
 		while (j <= '9')
