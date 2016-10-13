@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - primary work area
- *
+ * int - values i and j to be used
  * Return: 0 to end
  */
 int main(void)
