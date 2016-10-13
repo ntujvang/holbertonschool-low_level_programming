@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - primary work area
- * struct int - values to store char
+ *
  * Return: 0 to end
  */
 int main(void)
