@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - working area
+ * print_alphabet - working area
  *
- * Return: 0 to end
+ * Return: void to end
  */
 void print_alphabet(void)
 {

@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - working area
+ * print_alphabet_x10 - working area
  *
  * Return: void to end
  */
