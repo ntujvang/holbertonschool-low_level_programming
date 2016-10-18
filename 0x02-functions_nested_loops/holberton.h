@@ -12,3 +12,5 @@ int _isalpha(int c);
 /* ex 4 */
 int print_sign(int n);
 /* ex 5 */
+int _abs(int);
+/* ex 6 */
