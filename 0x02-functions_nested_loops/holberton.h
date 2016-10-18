@@ -22,3 +22,5 @@ void times_table(void);
 /* ex 9 */
 int add(int, int);
 /* ex 10 */
+void print_to_98(int n);
+/* ex 11 */
