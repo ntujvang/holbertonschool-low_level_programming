@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _abs - working area (absolute value)
- * @int: # working with
+ * @i: # working with
  * Return: absolute value of #
  */
 int _abs(int i)
