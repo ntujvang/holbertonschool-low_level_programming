@@ -14,3 +14,5 @@ int print_sign(int n);
 /* ex 5 */
 int _abs(int);
 /* ex 6 */
+int print_last_digit(int);
+/* ex 7 */
