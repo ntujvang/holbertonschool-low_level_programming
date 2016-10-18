@@ -18,3 +18,7 @@ int print_last_digit(int);
 /* ex 7 */
 void jack_bauer(void);
 /* ex 8 */
+void times_table(void);
+/* ex 9 */
+int add(int, int);
+/* ex 10 */
