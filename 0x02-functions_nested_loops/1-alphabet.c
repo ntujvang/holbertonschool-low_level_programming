@@ -2,7 +2,7 @@
 /**
  * print_alphabet - working area
  *
- * Return: return to end
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -15,5 +15,4 @@ void print_alphabet(void)
 		a++;
 	}
 	_putchar('\n');
-	return;
 }
