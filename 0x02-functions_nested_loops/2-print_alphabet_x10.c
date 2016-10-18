@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 - working area
  *
- * Return: void to end
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
@@ -19,5 +19,4 @@ void print_alphabet_x10(void)
 	_putchar('\n');
 	a = 'a';
 	}
-	return;
 }
