@@ -1,15 +1,13 @@
 #include "holberton.h"
 /**
  * _islower - working area
- *
+ * @c: starting point
  * Return: void to end
  */
-int _islower(int r)
+int _islower(int c)
 {
-	int r;
-
-	if (r < 'z' && r > 'a')
-		return(1);
+	if (c < 'z' && c > 'a')
+		return (1);
 	else
-		return(0);
+		return (0);
 }
