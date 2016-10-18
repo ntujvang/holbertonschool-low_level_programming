@@ -2,7 +2,7 @@
 /**
  * print_alphabet - working area
  *
- * Return: void to end
+ * Return: return to end
  */
 void print_alphabet(void)
 {
