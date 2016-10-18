@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _isalpha - working area
- *
+ * @c: starting point
  * Return: an int 0 or 1
  */
 int _isalpha(int c)
