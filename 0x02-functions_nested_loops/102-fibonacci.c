@@ -14,9 +14,12 @@ int main(void)
 	for (k = 0; k < 48; k++)
 	{
 		p = i + n;
-		printf("%lu, ", p);
 		n = i;
 		i = p;
+		if (k != 47)
+			printf("%lu, ", p);
+		else
+			printf("%lu", p);
 	}
 	printf("\n");
 	return (0);
