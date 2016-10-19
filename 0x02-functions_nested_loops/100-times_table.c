@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_times_table - main working area
- *
+ * @n: starting point
  * Return: void to end
  */
 void print_times_table(int n)
