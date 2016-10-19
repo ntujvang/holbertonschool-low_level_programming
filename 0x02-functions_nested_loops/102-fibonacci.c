@@ -10,7 +10,8 @@ int main(void)
 
 	n = 1;
 	i = 2;
-	for (k = 0; k < 50; k++)
+	printf("1, 2, ");
+	for (k = 0; k < 48; k++)
 	{
 		p = i + n;
 		printf("%lu, ", p);
