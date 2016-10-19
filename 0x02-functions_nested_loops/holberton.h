@@ -24,3 +24,5 @@ int add(int, int);
 /* ex 10 */
 void print_to_98(int n);
 /* ex 11 */
+void print_times_table(int n);
+/* ex 12 */
