@@ -19,3 +19,5 @@ void print_diagonal(int n);
 /* ex 7 */
 void print_square(int size);
 /* ex 8 */
+void print_triangle(int size);
+/* ex 10 */
