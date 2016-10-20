@@ -11,8 +11,9 @@ int main(void)
 
 	i = 612852475143;
 	if (i % 2 == 0)
-		printf("%lu\n", sum = i / 2);
+		printf("%lu", sum = i / 2);
 	else
-		printf("%lu\n", sum = i / 3);
+		printf("%lu", sum = i / 3);
+	printf("\n");
 	return (0);
 }
