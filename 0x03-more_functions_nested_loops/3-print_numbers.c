@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_numbers - working area
- * 
+ *
  * Return: void
  */
 void print_numbers(void)
