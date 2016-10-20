@@ -7,13 +7,19 @@
  */
 int main(void)
 {
-	unsigned long int i, sum;
+	long i, n, sum, highest;
 
 	i = 612852475143;
-	if (i % 2 == 0)
-		printf("%lu", sum = i / 2);
-	else
-		printf("%lu", sum = i / 3);
-	printf("\n");
+	n = 2;
+	highest = 0;
+	while ( i % n != 0)
+	{
+		if (i % n == 0)
+			sum = i / n;
+		if (sum > highest)
+			highest = sum;
+		n++;
+	}
+	printf("%li\n", highest);
 	return (0);
 }
