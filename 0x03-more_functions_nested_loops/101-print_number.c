@@ -9,7 +9,7 @@
  */
 void print_number(int n)
 {
-	int max[10];
+	long max[10];
 	int i, k;
 
 	k = 0;
