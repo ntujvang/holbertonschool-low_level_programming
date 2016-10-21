@@ -13,7 +13,7 @@ int main(void)
 	n = 2;
 	while (n < i)
 	{
-		if (i % n !=0)
+		if (i % n != 0)
 			n++;
 		if (i % n == 0)
 		{
