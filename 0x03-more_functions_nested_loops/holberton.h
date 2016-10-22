@@ -21,3 +21,5 @@ void print_square(int size);
 /* ex 8 */
 void print_triangle(int size);
 /* ex 10 */
+void print_number(int n);
+/* ex 12 */
