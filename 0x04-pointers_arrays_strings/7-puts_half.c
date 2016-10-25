@@ -10,7 +10,7 @@ void puts_half(char *str)
 	int i, h;
 	int max[100];
 
-	i = 0;
+	i = 1;
 	while (*str != 0)
 	{
 		max[i] = *str;
@@ -18,6 +18,8 @@ void puts_half(char *str)
 		i++;
 	}
 	h = i / 2;
+	if (h % 2 == 0)
+		h = h + 1;
 	while (h <= i)
 	{
 		_putchar(max[h]);
