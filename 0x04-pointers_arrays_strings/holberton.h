@@ -16,3 +16,7 @@ void puts2(char *str);
 /* ex 6 */
 void puts_half(char *str);
 /* ex 7 */
+void print_array(int *a, int n);
+/* ex 8 */
+char *_strcpy(char *dest, char *src);
+/* ex 9 */
