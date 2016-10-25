@@ -8,15 +8,17 @@
  */
 void puts2(char *str)
 {
-	int i, s, k;
+	int i;
 	int max[100];
 
-	s = strlen(str) -1;
-	for (i = 0; i <= s; i++)
+	i = 0;
+	while (*str != 0)
 	{
-		max[i] = str[i];
+		max[i] = *str;
+		if (i % 2 == 0)
+			_putchar(max[i]);
+		str++;
+		i++;
 	}
-	for (k = 0; k <= s; k = k + 2)
-		putchar(max[k]);
-	putchar('\n');
+	_putchar('\n');
 }
