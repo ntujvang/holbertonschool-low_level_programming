@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <string.h>
 /**
  * _strlen - finding the length
@@ -8,5 +7,10 @@
  */
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int i;
+
+	for (i = 0; *s != 0; i++, s++)
+	{
+	}
+	return(i);
 }
