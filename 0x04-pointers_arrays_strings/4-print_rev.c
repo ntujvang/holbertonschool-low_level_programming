@@ -14,7 +14,7 @@ void print_rev(char *s)
 		max[c] = *s;
 		k = c;
 	}
-	for (k = c - 1; k >= 0; k --)
+	for (k = c - 1; k >= 0; k--)
 	{
 		_putchar(max[k]);
 	}
