@@ -6,18 +6,23 @@
  */
 void rev_string(char *s)
 {
-	int c, k;
+	int c;
 	char max[1000];
 	char *t;
 
 	t = s;
-	for (c = 0; *t != 0 ; c++, t++)
+	c = 0;
+	while (*t != 0)
 	{
 		max[c] = *t;
-		k = c;
+		t++;
+		c++;
 	}
-	for (k = k ; k >= 0; k--, s++)
+	c = c - 1;
+	while (c >= 0)
 	{
-		*s = max[k];
+		*s = max[c];
+		c--;
+		s++;
 	}
 }
