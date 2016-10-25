@@ -1,13 +1,13 @@
 #include "holberton.h"
 /**
- * print_rev - going backwards
+ * rev_string - going backwards
  * @s: string going in
  * Return: void
  */
 void rev_string(char *s)
 {
 	int c, k;
-	char max[100];
+	char max[999];
 	char *t;
 
 	t = s;
