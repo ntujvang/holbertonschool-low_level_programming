@@ -12,3 +12,5 @@ void print_rev(char *s);
 /* ex 4 */
 void rev_string(char *s);
 /* ex 5 */
+void puts2(char *str);
+/* ex 6 */
