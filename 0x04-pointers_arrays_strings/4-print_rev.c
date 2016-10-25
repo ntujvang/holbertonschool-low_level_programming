@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
-#include <string.h>
 /**
  * print_rev - going backwards
  * @s: string going in
@@ -8,15 +6,17 @@
  */
 void print_rev(char *s)
 {
-	int l, c, i;
-	char max[100];
+	int c, k;
+	int max[100];
 
-	l = strlen(s) - 1;
-	i = strlen(s) -1;
-	for (c = 0; c <= i ; c++, l--)
+	for (c = 0; *s != 0 ; c++, s++)
 	{
-		max[c] = s[l];
-		putchar(max[c]);
+		max[c] = *s;
+		k = c;
 	}
-	putchar('\n');
+	for (k = c - 1; k >= 0; k --)
+	{
+		_putchar(max[k]);
+	}
+	_putchar('\n');
 }
