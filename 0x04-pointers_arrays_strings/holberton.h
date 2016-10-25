@@ -14,3 +14,5 @@ void rev_string(char *s);
 /* ex 5 */
 void puts2(char *str);
 /* ex 6 */
+void puts_half(char *str);
+/* ex 7 */
