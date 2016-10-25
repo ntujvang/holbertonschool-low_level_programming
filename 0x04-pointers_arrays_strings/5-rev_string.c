@@ -16,7 +16,7 @@ void rev_string(char *s)
 		max[c] = *t;
 		k = c;
 	}
-	for (k = k - 1; k >= 0; k--, s++)
+	for (k = k; k >= 0; k--, s++)
 	{
 		*s = max[k];
 	}
