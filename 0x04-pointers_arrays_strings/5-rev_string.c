@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
 	int c, k;
-	char max[999];
+	char max[1000];
 	char *t;
 
 	t = s;
@@ -16,7 +16,7 @@ void rev_string(char *s)
 		max[c] = *t;
 		k = c;
 	}
-	for (k = k; k >= 0; k--, s++)
+	for (k = k ; k >= 0; k--, s++)
 	{
 		*s = max[k];
 	}
