@@ -20,3 +20,5 @@ void print_array(int *a, int n);
 /* ex 8 */
 char *_strcpy(char *dest, char *src);
 /* ex 9 */
+int _atoi(char *s);
+/* ex 10 */
