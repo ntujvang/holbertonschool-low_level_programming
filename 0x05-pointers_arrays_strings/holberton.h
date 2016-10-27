@@ -14,3 +14,5 @@ char *string_toupper(char *);
 /* ex 5 */
 char *cap_string(char *);
 /* ex 6 */
+char *leet(char *);
+/* ex 7 */
