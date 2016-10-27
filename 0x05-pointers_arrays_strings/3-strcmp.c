@@ -3,7 +3,7 @@
  * _strcmp - comparing 2 strings
  * @s1: first target
  * @s2: second target
- * Return: difference between the two
+ * Return: difference between the two (math)
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -22,7 +22,7 @@ int _strcmp(char *s1, char *s2)
 	}
 	else
 	{
-		math = 0;
+		math = s1[i] - s2[i];
 		return (math);
 	}
 }
