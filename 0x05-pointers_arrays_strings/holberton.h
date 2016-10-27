@@ -16,3 +16,5 @@ char *cap_string(char *);
 /* ex 6 */
 char *leet(char *);
 /* ex 7 */
+char *rot13(char *);
+/* ex 8 */
