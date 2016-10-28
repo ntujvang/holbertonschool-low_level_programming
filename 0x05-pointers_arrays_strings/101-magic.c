@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - it's a bot
+ *
+ */
 int main(void)
 {
 	int n;
