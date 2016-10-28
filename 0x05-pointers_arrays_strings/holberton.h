@@ -20,3 +20,5 @@ char *rot13(char *);
 /* ex 8 */
 void print_number(int n);
 /* ex 9 */
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+/* ex 11 */
