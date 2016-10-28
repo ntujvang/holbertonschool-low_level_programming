@@ -18,3 +18,5 @@ char *leet(char *);
 /* ex 7 */
 char *rot13(char *);
 /* ex 8 */
+void print_number(int n);
+/* ex 9 */
