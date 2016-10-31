@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int_strspn - count letters in first part only
+ * _strspn - count letters in first part only
  * @s: target objective
  * @accept: items searching for
  * Return: number of bytes from s
