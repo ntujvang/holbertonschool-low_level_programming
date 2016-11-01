@@ -14,3 +14,5 @@ char *_strstr(char *haystack, char *needle);
 /* ex 5 */
 void print_chessboard(char (*a)[8]);
 /* ex 6/7 */
+void print_diagsums(int *a, int size);
+/* ex 7/8 */
