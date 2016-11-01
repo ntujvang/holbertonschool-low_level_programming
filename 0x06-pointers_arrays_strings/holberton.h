@@ -16,3 +16,5 @@ void print_chessboard(char (*a)[8]);
 /* ex 6/7 */
 void print_diagsums(int *a, int size);
 /* ex 7/8 */
+void set_string(char **s, char *to);
+/* ex 8/9 */
