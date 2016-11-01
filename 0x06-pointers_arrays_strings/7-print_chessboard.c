@@ -1,8 +1,7 @@
 #include "holberton.h"
 /**
  * print_chessboard - chessboard!!
- * @a: first row
- * @8: # of columns
+ * @a: rows
  * Return: chessboard
  */
 void print_chessboard(char (*a)[8])
