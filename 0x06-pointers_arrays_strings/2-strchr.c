@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * *_strchr - finding where something appears first
  * @s: target objective
@@ -19,5 +20,5 @@ char *_strchr(char *s, char c)
 	if (s[i] == c)
 		return (s + i);
 	else
-		return (0);
+		return (NULL);
 }

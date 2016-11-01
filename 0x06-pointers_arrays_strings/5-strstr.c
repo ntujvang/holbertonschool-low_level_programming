@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * *_strstr - finding first occurence of a pattern
  * @haystack: target objective
@@ -24,5 +25,5 @@ char *_strstr(char *haystack, char *needle)
 			return (beg);
 		haystack = beg + 1;
 	}
-	return ('\0');
+	return (NULL);
 }

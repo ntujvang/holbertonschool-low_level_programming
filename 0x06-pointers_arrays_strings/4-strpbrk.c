@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * *_strpbrk - matching letters
  * @s: target ojective
@@ -26,5 +27,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
