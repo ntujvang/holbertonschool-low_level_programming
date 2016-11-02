@@ -1,4 +1,4 @@
-ex 0 - printing 1 line with recursion '\n'
+ex 0 - printing 1 line with recursion
 ex 1 - printing in reverse with recusion
 ex 2 - counting lines with recursion
 ex 3 - finding factorials with recursion
