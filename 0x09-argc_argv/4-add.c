@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum;
+	int i, n, sum;
 
 	if (argc <= 1)
 	{
@@ -19,19 +19,21 @@ int main(int argc, char *argv[])
 	i = 1;
 	while (i < argc)
 	{
-		if (*argv[i] >= '0' && *argv[i] <= '9')
+		while (*argv[i] != '\0')
 		{
-			sum += atoi(argv[i]);
+			if (*argv[i] >= '0' && *argv[i] <= '9')
+			{
+				n = n * 10 + *argv[i] - '0';
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+			argv[i]++;
 		}
-		else if (atoi(argv[i]) < 0)
-		{
-			sum += atoi(argv[i]);
-		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		sum = sum + n;
+		n = 0;
 		i++;
 	}
 	printf("%d\n", sum);
