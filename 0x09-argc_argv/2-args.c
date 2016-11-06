@@ -4,7 +4,7 @@
  * main - working area
  * @argc: counter for arrays
  * @argv: array list
- * Return: 0 to end
+ * Return: always 0
  */
 int main(int argc, char *argv[])
 {
@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 	i = 0;
 	while (i < argc)
 	{
-	       printf("%s\n", argv[i]);
-	       i++;
+		printf("%s\n", argv[i]);
+		i++;
 	}
 	return (0);
 }
