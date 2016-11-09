@@ -11,7 +11,6 @@ char *_strdup(char *str)
 	unsigned int i, n;
 	char *s;
 
-	i = 0;
 	n = 0;
 	while (str[n] != '\0')
 	{
@@ -21,7 +20,8 @@ char *_strdup(char *str)
 	s = malloc(n * sizeof(*s));
 	if (s == NULL)
 		return (NULL);
-	while (str[i] != '\0')
+	i = 0;
+	while (i <= n)
 	{
 		s[i] = str[i];
 		i++;
