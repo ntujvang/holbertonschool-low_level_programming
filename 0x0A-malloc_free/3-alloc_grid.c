@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * **alloc_grid - returns pointer to 2 newly created 2D int grid
+ * **alloc_grid - returns pointer to a newly created 2D int grid
  * @width: width of the grid
  * @height: heigth of the grid
  * Return: pointers or NULL
@@ -18,12 +18,14 @@ int **alloc_grid(int width, int height)
 	s = (int **) malloc(box * sizeof(int *));
 	if (s == NULL)
 		return (NULL);
+	i = 0;
 	while (i < height)
 	{
 		n = 0;
 		while (n < width)
 		{
-			s[n] = (int *) malloc(width * sizeof(int *));
+			*s = 0;
+			s++;
 			n++;
 		}
 		i++;
