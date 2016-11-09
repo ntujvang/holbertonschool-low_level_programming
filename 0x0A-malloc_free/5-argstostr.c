@@ -10,11 +10,11 @@
 char *argstostr(int ac, char **av)
 {
 	int i, n;
-	char *s, *t;
+	char *s, *tmp;
 
 	i = 0;
 	s = (char *) malloc(ac * sizeof(char *));
-	t = s;
+	tmp = s;
 	while (i < ac)
 	{
 		n = 0;
@@ -28,7 +28,5 @@ char *argstostr(int ac, char **av)
 		s++;
 		i++;
 	}
-	if (s)
-		return (t);
-	return (NULL);
+	return (tmp);
 }
