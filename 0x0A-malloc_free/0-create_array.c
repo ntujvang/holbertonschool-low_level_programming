@@ -17,10 +17,17 @@ char *create_array(unsigned int size, char c)
 	while (i < size)
 	{
 		s[i] = c;
+		if (s[i] == NULL)
+		{
+			while (i >= 0)
+			{
+				free(s[i]);
+				i--;
+			}
+			free(s);
+			return (NULL);
+		}
 		i++;
 	}
-	if (s == NULL)
-		return (NULL);
-	else
-		return (s);
+	return (s);
 }
