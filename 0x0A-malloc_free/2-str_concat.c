@@ -22,11 +22,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		n++;
 	}
+	n++;
 	k = i + n;
-	if (k != 0)
-		s = malloc(k * sizeof(*s));
-	else
-		return (NULL);
+	s = malloc(k * sizeof(*s));
 	if (s == NULL)
 		return (NULL);
 	i = 0;
