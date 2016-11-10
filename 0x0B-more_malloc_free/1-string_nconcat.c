@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * *string_nconcat - making a s1 string followed by the first n bytes of s2
  * @s1: first string
@@ -22,13 +21,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (c = 0; s2[c] != '\0'; c++)
 		;
 	k = 0;
-	printf("%d\n", i);
-	printf("%d\n", c);
 	if (n >= c)
 		k = i + c;
 	else
 		k = i + n;
-	printf("%d\n", k);
 	s = malloc(k * sizeof(*s));
 	if (s == NULL)
 		return (NULL);
