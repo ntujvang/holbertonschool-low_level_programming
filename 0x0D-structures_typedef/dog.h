@@ -20,4 +20,6 @@ void print_dog(struct dog *d);
 /* ex 2 */
 dog_t *new_dog(char *name, float age, char *owner);
 /* ex 4 */
+void free_dog(dog_t *d);
+/* ex 5 */
 #endif /* DOG */
