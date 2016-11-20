@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_string - prints a string
+ * print_strings - prints a string
  * @separator: char separating
  * @n: number of strings passed
  * Return: string plus \n
@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		else
 		{
 			printf("%s", tmp);
-			if (i < n -1 && separator != NULL)
+			if (i < n - 1 && separator != NULL)
 				printf("%s", separator);
 		}
 		i++;
