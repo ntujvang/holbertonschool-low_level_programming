@@ -10,6 +10,11 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 /* ex 3 */
 void print_all(const char * const format, ...);
+/**
+ * struct print_format - structure
+ * @p: the p(th) format
+ * @f: function
+ */
 typedef struct print_format
 {
 	char *p;
