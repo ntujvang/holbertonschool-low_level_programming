@@ -27,4 +27,6 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 /* ex 4 */
 void free_list(list_t *head);
+/* bonus 1 */
+void startUp (void) __attribute__ ((constructor));
 #endif
