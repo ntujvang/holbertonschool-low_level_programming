@@ -17,6 +17,8 @@ void print_binary(unsigned long int n)
 		tmp = tmp >> 1;
 	}
 	i--;
+	if (i > 31)
+		return;
 	while (i >= 0)
 	{
 		if ((n >> i) & 1)
