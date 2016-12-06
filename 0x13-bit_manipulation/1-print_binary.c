@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdlib.h>
 /**
  * print_binary - printing the binary
  * @n: the number being converted
@@ -22,8 +21,6 @@ void print_binary(unsigned long int n)
 		i++;
 		tmp = tmp >> 1;
 	}
-	if (i > 64)
-		return;
 	while (i >= 0)
 	{
 		if ((n >> i) & 1)
