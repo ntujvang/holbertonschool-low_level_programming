@@ -12,7 +12,12 @@ void print_binary(unsigned long int n)
 
 	if (n == 0)
 	{
-		_putchar("0");
+		_putchar('0');
+		return;
+	}
+	if (n == 1)
+	{
+		_putchar('1');
 		return;
 	}
 	i = 0;
@@ -25,9 +30,9 @@ void print_binary(unsigned long int n)
 	while (i >= 0)
 	{
 		if ((n >> i) & 1)
-			_putchar("1");
+			_putchar('1');
 		else
-			_putchar("0");
+			_putchar('0');
 		i--;
 	}
 }
