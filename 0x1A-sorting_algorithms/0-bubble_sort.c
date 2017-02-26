@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * bubble_sort - this function replicates bubble sort!
  * @array: the array
@@ -7,10 +8,10 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, j, temp;
+	size_t i, j;
+	int temp;
 
 	i = 0;
-	temp = 0;
 	if (size <= 1)
 		return;
 	while (i < size)
