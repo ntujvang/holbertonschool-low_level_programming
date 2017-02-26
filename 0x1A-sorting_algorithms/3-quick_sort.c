@@ -5,6 +5,7 @@
  * @array: the array
  * @lo: lowest index
  * @hi: highest index
+ * @size: size of whole array
  * Return: a number
  */
 int hoare_partition(int *array, int lo, int hi, size_t size)
@@ -39,18 +40,19 @@ int hoare_partition(int *array, int lo, int hi, size_t size)
  * @array: the array
  * @lo: lowest index
  * @hi: highest index
+ * @size: size of whole array
  * Return: void
  */
 void hoare_qs(int *array, int lo, int hi, size_t size)
 {
-        int pivot;
+	int pivot;
 
-        if (lo < hi)
-        {
-                pivot = hoare_partition(array, lo, hi, size);
-                hoare_qs(array, lo, pivot - 1, size);
-                hoare_qs(array, pivot, hi, size);
-        }
+	if (lo < hi)
+	{
+		pivot = hoare_partition(array, lo, hi, size);
+		hoare_qs(array, lo, pivot - 1, size);
+		hoare_qs(array, pivot, hi, size);
+	}
 }
 
 /**

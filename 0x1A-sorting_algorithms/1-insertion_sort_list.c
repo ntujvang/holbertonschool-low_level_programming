@@ -48,9 +48,9 @@ listint_t *get_node_info(listint_t *list, size_t index)
 	if (list == NULL)
 		return (NULL);
 	i = 0;
-	while(i < index)
+	while (i < index)
 	{
-	        list = list->next;
+		list = list->next;
 		i++;
 	}
 	if (i != index)
