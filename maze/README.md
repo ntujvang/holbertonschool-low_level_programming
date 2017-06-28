@@ -34,4 +34,4 @@ A few maze files have been provided. But feel free to create your own with these
 
 The maze comes with a minimap option. To show it press 'M' on the keyboard.
 
-** Maze is a work in progress and is contains nothing but a map which allows the player to wander around aimlessly.. There is no winning in this maze, only way to escape it is to quit out of it! **
+**Maze is a work in progress and is contains nothing but a map which allows the player to wander around aimlessly.. There is no winning in this maze, only way to escape it is to quit out of it!**
