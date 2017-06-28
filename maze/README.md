@@ -1,11 +1,11 @@
-#The Maze
+# The Maze
 
 **One of Holberton School's End of Year project option**
 
 The project is to attempt to recreate Wolfenstein's 3D game via SDL2.
 
 ---------------------------------------------
-** Author **
+**Author**
 - **Ntuj Vang**, \<ntuj.vang@holbertonschool.com>, @yogmazoophem
 ---------------------------------------------
 
@@ -26,7 +26,7 @@ Optional flags for non-Holberton School students are:
 
 To launch the maze after you have successfully compiled it type in:
 <pre><code>
-./a.out level
+./a.out mazes/level
 </pre></code>
 A few maze files have been provided. But feel free to create your own with these variables:
 - 1 = a wall
