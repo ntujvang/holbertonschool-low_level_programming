@@ -12,14 +12,22 @@ The project is to attempt to recreate Wolfenstein's 3D game via SDL2.
 **Compilation Instructions**
 
 The files should be compiled using and runs on both Linux and Mac OS
+
+For MAC OS compilation use:
 <pre><code>
-gcc *.c `sdl2-config --cflags --libs`
+gcc *.c `sdl2-config --cflags --libs` -lSDL2_ttf
 </code></pre>
+
+For Linux OS compilation use:
+<pre><code>
+gcc *.c `sdl2-config --cflags --libs` -lSDL2-ttf -lm
+</code></pre>
+
 Optional flags for non-Holberton School students are:
-- -Wall 
-- -Werror 
-- -Wextra 
-- -pedantic 
+- -Wall
+- -Werror
+- -Wextra
+- -pedantic
 
 ----------------------------------------
 <img src = "https://github.com/ntujvang/holbertonschool-low_level_programming/blob/master/maze/pics/maze.png">
