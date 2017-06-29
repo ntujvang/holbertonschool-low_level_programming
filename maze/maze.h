@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#include <time.h>
 
 #define screenWidth 1366
 #define screenHeight 768
@@ -77,9 +78,9 @@ size_t bigLine(char *);
 size_t charCounter(char *);
 size_t lineCounter(char *);
 void makeSDL(SDL_Instance *, char *);
-
-void draw(SDL_Instance, char **, coord, coord, coord, char *, keys);
-
+void makeBomb(char **, char *);
+void draw(SDL_Instance, char **, coord, coord, coord, char *, keys, char **);
+void checkDone(char **, coord, int *);
 void keyCheck(keys *, SDL_Event *);
 
 void move(keys, coord *, coord *, coord *, char **);

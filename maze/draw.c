@@ -144,9 +144,10 @@ void drawWalls(char **map, SDL_Instance rc, coord pos, coord dir,
  * @plane: current field of view
  * @file: the name of the map file
  * @keyPress: the struct of collected key presses
+ * @bombMap: 2D array of the bomb's map
  **/
 void draw(SDL_Instance rc, char **map, coord pos, coord dir,
-	  coord plane, char *file, keys keyPress)
+	  coord plane, char *file, keys keyPress, char **bombMap)
 {
 	size_t i;
 
@@ -163,7 +164,7 @@ void draw(SDL_Instance rc, char **map, coord pos, coord dir,
 	if (keyPress.m)
 	{
 		minimapFOV(&rc, pos, dir, plane);
-		drawMinimap(&rc, map, file);
+		drawMinimap(&rc, bombMap, file);
 	}
 	SDL_RenderPresent(rc.renderer);
 }

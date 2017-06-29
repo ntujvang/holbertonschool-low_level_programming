@@ -1,5 +1,9 @@
 #include "maze.h"
 
+/**
+ * freeSDL - function that frees all SDL instances
+ * @rc: the struct holding all instances
+ **/
 void freeSDL(SDL_Instance rc)
 {
 	SDL_DestroyTexture(rc.minimap);

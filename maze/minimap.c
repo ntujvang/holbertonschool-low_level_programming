@@ -35,10 +35,10 @@ void minimapFOV(SDL_Instance *rc, coord pos, coord dir, coord plane)
 /**
  * drawMinimap - function that draws the minimap
  * @rc: structure that contains all SDL info
- * @map: 2D array map
+ * @bombMap: 2D array of map
  * @file: name of map's file
  **/
-void drawMinimap(SDL_Instance *rc, char **map, char *file)
+void drawMinimap(SDL_Instance *rc, char **bombMap, char *file)
 {
 	FILE *maze;
 	char *line;
@@ -59,8 +59,18 @@ void drawMinimap(SDL_Instance *rc, char **map, char *file)
 	{
 		charCount = charCounter(line);
 		for (j = 0; j < charCount; j++)
-			if (map[i][j] == '1')
+		{
+			if (bombMap[i][j] == '1')
+			{
+				SDL_SetRenderDrawColor(rc->renderer, 0x33, 0x55, 0x99, 0xff);
 				SDL_RenderDrawPoint(rc->renderer, i + 1, j + 1);
+			}
+			if (bombMap[i][j] == 'd')
+			{
+				SDL_SetRenderDrawColor(rc->renderer, 0xff, 0x00, 0x00, 0xff);
+				SDL_RenderDrawPoint(rc->renderer, i + 1, j + 1);
+			}
+		}
 		i++;
 		reader = getline(&line, &buffsize, maze);
 	}
