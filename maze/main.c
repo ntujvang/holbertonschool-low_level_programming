@@ -37,8 +37,7 @@ int main(int argc, char *argv[])
 		move(keyPress, &pos, &dir, &plane, floor.map);
 		draw(rc, floor.map, pos, dir, plane, argv[1], keyPress);
 	}
-	SDL_DestroyRenderer(rc.renderer);
-	SDL_DestroyWindow(rc.window);
+	freeSDL(rc);
 	SDL_Quit();
 	return (0);
 }

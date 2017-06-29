@@ -86,4 +86,5 @@ void move(keys, coord *, coord *, coord *, char **);
 
 void minimapFOV(SDL_Instance *, coord, coord, coord);
 void drawMinimap(SDL_Instance *, char **, char *);
+void freeSDL(SDL_Instance);
 #endif
