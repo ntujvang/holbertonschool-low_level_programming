@@ -65,6 +65,8 @@ void checkDone(SDL_Instance rc, char **bombMap, coord pos, int *quit)
 		SDL_RenderPresent(rc.renderer);
 		SDL_Delay(2000);
 		printf("YOU LOSE!\n");
+		SDL_DestroyTexture(target);
+		SDL_DestroyTexture(host);
 		*quit = 1;
 	}
 }
