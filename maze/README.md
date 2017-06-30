@@ -44,7 +44,7 @@ A few maze files have been provided. But feel free to create your own with these
 - 1 = a wall
 - 0 = open floor
 
-Ther perimeter of the maze should be all 1 or else the game will crash due to access of unallocated memory.
+The perimeter of the maze should be all 1 or else the game will crash due to access of unallocated memory.
 Any other characters used will render a form with the same color as the floor.
 
 The maze comes with a minimap option. To show it press 'M' on the keyboard.
