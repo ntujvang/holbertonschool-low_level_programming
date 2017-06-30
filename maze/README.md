@@ -12,7 +12,10 @@ This maze has a pseudo mine-sweep implementation. 1% of the entire grid, barring
 
 **Compilation Instructions**
 
-The files should be compiled using and runs on both Linux and Mac OS
+In order to compile this you must have SDL2 installed, currently no extended SDL libraries are in use:
+
+Link for help installing SDL2:
+<a href="https://wiki.libsdl.org/Installation"></a>
 
 For MAC OS compilation use:
 <pre><code>
