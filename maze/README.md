@@ -3,7 +3,7 @@
 **One of Holberton School's End of Year project option**
 
 The project is to attempt to recreate Wolfenstein's 3D game via SDL2.
-This maze has a pseudo mine-sweep implementation. 1% of the entire grid, barring those containing 1, will be turned into bombs and if stepped on will immediately close the game. 
+
 
 ---------------------------------------------
 **Author**
@@ -49,4 +49,4 @@ Any other characters used will render a form with the same color as the floor.
 
 The maze comes with a minimap option. To show it press 'M' on the keyboard.
 
-**Maze is a work in progress!! There is no winning in this maze, only way to escape it is to quit out of it, smash endlessly into walls until you segfault it, OR step on a bomb**
+**Maze is a work in progress!! There is no winning in this maze, only way to escape it is to quit out of it, smash endlessly into walls until you segfault it**
