@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	SDL_Instance rc;
 	SDL_Event e;
-	map floor, bomb;
+	map floor;
 	coord pos = {4, 2};
 	coord dir = {-1, 0};
 	coord plane = {0, 0.66};
@@ -22,10 +22,8 @@ int main(int argc, char *argv[])
 		printf("Not enough args\n");
 		return (1);
 	}
-	floor.map = bomb.map = NULL;
-	bomb.map = makeMap(argv[1]);
+	floor.map  = NULL;
 	floor.map = makeMap(argv[1]);
-	makeBomb(bomb.map, argv[1]);
 	SDL_Init(SDL_INIT_VIDEO);
 	makeSDL(&rc, argv[1]);
 	while (quit == 0)
@@ -37,8 +35,7 @@ int main(int argc, char *argv[])
 			keyCheck(&keyPress, &e);
 		}
 		move(keyPress, &pos, &dir, &plane, floor.map);
-		checkDone(rc, bomb.map, pos, &quit);
-		draw(rc, floor.map, pos, dir, plane, argv[1], keyPress, bomb.map);
+		draw(rc, floor.map, pos, dir, plane, argv[1], keyPress);
 	}
 	freeSDL(rc);
 	SDL_Quit();

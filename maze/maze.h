@@ -78,9 +78,9 @@ size_t bigLine(char *);
 size_t charCounter(char *);
 size_t lineCounter(char *);
 void makeSDL(SDL_Instance *, char *);
-void makeBomb(char **, char *);
-void draw(SDL_Instance, char **, coord, coord, coord, char *, keys, char **);
-void checkDone(SDL_Instance, char **, coord, int *);
+
+void draw(SDL_Instance, char **, coord, coord, coord, char *, keys);
+
 void keyCheck(keys *, SDL_Event *);
 
 void move(keys, coord *, coord *, coord *, char **);
