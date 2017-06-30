@@ -17,6 +17,8 @@ In order to compile this you must have SDL2 installed, currently no extended SDL
 Link for help installing SDL2:
 <a href="https://wiki.libsdl.org/Installation"></a>
 
+For simple compilation a makefile has been included with a clean option. However if one wishes to compile without input the following.
+
 For MAC OS compilation use:
 <pre><code>
 gcc *.c `sdl2-config --cflags --libs` -lSDL2_ttf
