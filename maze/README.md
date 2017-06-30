@@ -15,7 +15,7 @@ The project is to attempt to recreate Wolfenstein's 3D game via SDL2.
 In order to compile this you must have SDL2 installed, currently no extended SDL libraries are in use:
 
 Link for help installing SDL2:
-<a href="https://wiki.libsdl.org/Installation"></a>
+<a href="https://wiki.libsdl.org/Installation">
 
 For simple compilation a makefile has been included with a clean option. However if one wishes to compile without input the following.
 
