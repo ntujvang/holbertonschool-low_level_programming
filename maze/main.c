@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 			keyCheck(&keyPress, &e);
 		}
 		move(keyPress, &pos, &dir, &plane, floor.map);
-		checkDone(bomb.map, pos, &quit);
+		checkDone(rc, bomb.map, pos, &quit);
 		draw(rc, floor.map, pos, dir, plane, argv[1], keyPress, bomb.map);
 	}
 	freeSDL(rc);
